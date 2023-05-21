@@ -4,9 +4,9 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>your-group-id-1</groupId>
-    <artifactId>your-artifact-id-1</artifactId>
-    <version>your-version</version>
+    <groupId>Test-SonarQube-Upgrade</groupId>
+    <artifactId>Test-SonarQube-Upgrade-7.9.6</artifactId>
+    <version>1</version>
 
     <properties>
         <sonar.host.url>http://192.168.56.146:9000</sonar.host.url>
