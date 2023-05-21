@@ -36,7 +36,6 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <configLocation>${config_loc}/checkstyle.xml</configLocation>
                     <encoding>UTF-8</encoding>
                     <consoleOutput>true</consoleOutput>
                     <failsOnError>true</failsOnError>
