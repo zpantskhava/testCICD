@@ -9,7 +9,6 @@
     <version>2</version>
 
     <properties>
-        <sonar.host.url>http://192.168.56.146:9000</sonar.host.url>
         <config_loc>${project.basedir}/newdir</config_loc>
     </properties>
 
