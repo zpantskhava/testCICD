@@ -9,7 +9,7 @@ import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.io.Serializable;
-import java.util.ArrayList;
+ java.util.ArrayList;
 
 /**
  *
@@ -22,12 +22,12 @@ public class Car implements Serializable {
     int SeatingCapacity;
     String Model, Condition, RegNo;
     private int RentPerHour;
-    private CarOwner carOwner;
+   Owner carOwner;
 
     public Car() {
     }
 
-    public Car(int ID, String Maker, String Name, String Colour, String Type, int SeatingCapacity, String Model, String Condition, String RegNo, int RentPerHour, CarOwner carOwner) {
+   ng Maker, String Name, String Colour, String Type, int SeatingCapacity, String Model, String Condition, String RegNo, int RentPerHour, CarOwner carOwner) {
         this.ID = ID;
         this.Maker = Maker;
         this.Name = Name;
@@ -45,7 +45,7 @@ public class Car implements Serializable {
         return ID;
     }
 
-    public void setID(int ID) {
+   etID(int ID) {
         this.ID = ID;
     }
 
@@ -101,7 +101,7 @@ public class Car implements Serializable {
         return Condition;
     }
 
-    public void setCondition(String Condition) {
+    pion(String Condition) {
         this.Condition = Condition;
     }
 
