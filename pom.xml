@@ -6,7 +6,7 @@
 
     <groupId>Test-SonarQube-Upgrade</groupId>
     <artifactId>Test-SonarQube-Upgrade-7.9.6</artifactId>
-    <version>3</version>
+    <version>4</version>
 
     <properties>
         <sonar.host.url>http://192.168.56.146:9000</sonar.host.url>
