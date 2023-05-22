@@ -36,7 +36,11 @@
                     </execution>
                 </executions>
                 <configuration>
+<<<<<<< HEAD
+                    <configLocation>${config_loc}/checkstyle.xml</configLocation>
+=======
                    <configLocation>${config_loc}/checkstyle.xml</configLocation> 
+>>>>>>> second
                     <encoding>UTF-8</encoding>
                     <consoleOutput>true</consoleOutput>
                     <failsOnError>true</failsOnError>
