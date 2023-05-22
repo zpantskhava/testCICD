@@ -4,9 +4,9 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>your-group-id-1</groupId>
-    <artifactId>your-artifact-id-1</artifactId>
-    <version>your-version</version>
+    <groupId>Test-SonarQube-Upgrade</groupId>
+    <artifactId>Test-SonarQube-Upgrade-7.9.6</artifactId>
+    <version>3</version>
 
     <properties>
         <sonar.host.url>http://192.168.56.146:9000</sonar.host.url>
@@ -36,7 +36,11 @@
                     </execution>
                 </executions>
                 <configuration>
+<<<<<<< HEAD
                     <configLocation>${config_loc}/checkstyle.xml</configLocation>
+=======
+                   <configLocation>${config_loc}/checkstyle.xml</configLocation> 
+>>>>>>> second
                     <encoding>UTF-8</encoding>
                     <consoleOutput>true</consoleOutput>
                     <failsOnError>true</failsOnError>
