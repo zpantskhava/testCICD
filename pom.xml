@@ -10,7 +10,6 @@
 
     <properties>
         <sonar.host.url>http://192.168.56.146:9000</sonar.host.url>
-        <config_loc>${project.basedir}/checkstyle</config_loc>
     </properties>
 
     <build>
@@ -36,12 +35,10 @@
                     </execution>
                 </executions>
                 <configuration>
-                   <configLocation>${config_loc}/checkstyle.xml</configLocation> 
                     <encoding>UTF-8</encoding>
                     <consoleOutput>true</consoleOutput>
                     <failsOnError>true</failsOnError>
                     <linkXRef>false</linkXRef>
-                    <propertyExpansion>config_loc=${project.basedir}/checkstyle</propertyExpansion>
                 </configuration>
             </plugin>
             <plugin>
